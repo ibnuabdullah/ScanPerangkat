@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="qr_code_white">#FFFFFFFF</color>
+    <color name="qr_code_flashlight_bg">#66000000</color>
+    <color name="qr_code_finder_mask">#80000000</color>
+    <color name="qr_code_flash_light_text_color">#66FFFFFF</color>
+    <color name="qr_code_finder_frame">#FFFFFFFF</color>
+    <color name="qr_code_finder_laser">#ef8394</color>
+
+    <color name="colorTransparent">@android:color/transparent</color>
+    <color name="colorPrimaryLight">#25273E</color>
+    <color name="colorTransparentWhite">#20FFFFFF</color>
+    <color name="colorTransparentBlack">#20000000</color>
+    <color name="textColorTransparance">#80FFFFFF</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="fullTransparent">#00FFFFFF</color>
+    <color name="textColorInverse">@color/colorPrimaryDark</color>
+    <color name="textColorLight">#9C9FB2</color>
+    <color name="selectedMenu">#00C873</color>
+    <color name="textColorRed">#C63047</color>
+    <color name="textColorGreen">#2AAD63</color>
+    <color name="chartTransparentBg">#662C82BE</color>
+    <color name="chartBorder">#2C82BE</color>
+    <color name="textColorLight2">#B0BFDA</color>
+    <color name="textGreen">#00C873</color>
+    <color name="textRed">#FF3750</color>
+    <color name="textBlue">#0276BA</color>
+    <color name="textFullRed">#F00</color>
+    <color name="textOrange">#F4681B</color>
+    <color name="colorWhite">#fff</color>
+    <color name="chartColorBlueOld">#0276BA</color>
+    <color name="chartColorBlueWater">#28B8EA</color>
+    <color name="chartColorOrange">#EAA820</color>
+    <color name="hintColor">#616B7E</color>
+
+    <color name="lightbluebg">#c9dae9</color>
+    <color name="bluebg">#acc5da</color>
+    <color name="green"> #a8dba8</color>
+    <color name="lightgreen"> #cff09e</color>
+    <color name="white">  #fff</color>
+    <color name="darkblue">  #128C7E</color>
+    <color name="blue">  #4fb0c6</color>
+    <color name="blue_grey">#607d8b</color>
+    <color name="emphasis">#31b6e7</color>
+    <color name="darkgray">#A9A9A9</color>
+</resources>
