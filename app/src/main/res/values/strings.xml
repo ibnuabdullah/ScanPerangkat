@@ -4,4 +4,10 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    // TODO: 22/02/18
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="List">List</string>
+    <string name="account">Account</string>
 </resources>

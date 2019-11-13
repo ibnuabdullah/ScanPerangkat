@@ -31,7 +31,7 @@
             android:layout_height="32dp"
             android:layout_weight="1"
             android:alpha="0.5"
-            android:src="@drawable/ic_search_black_24dp" />
+            android:src="@drawable/ic_search" />
 
         <ImageView
             android:id="@+id/ivHome"
@@ -39,7 +39,7 @@
             android:layout_height="32dp"
             android:layout_weight="1"
             android:alpha="0.5"
-            android:src="@drawable/ic_home_black_24dp"/>
+            android:src="@drawable/ic_home"/>
 
         <ImageView
             android:id="@+id/ivView"
@@ -47,7 +47,7 @@
             android:layout_height="32dp"
             android:layout_weight="1"
             android:alpha="0.5"
-            android:src="@drawable/ic_list_black_24dp"/>
+            android:src="@drawable/ic_list"/>
     </LinearLayout>
 
 </RelativeLayout>
