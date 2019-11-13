@@ -1,5 +1,6 @@
 package com.app.qrcodescanner.Model;
 
+//Model yang ditangkap dalam bentuk JSON
 
 import com.google.gson.annotations.SerializedName;
 
