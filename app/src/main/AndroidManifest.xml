@@ -16,13 +16,13 @@
         android:usesCleartextTraffic="true"
         >
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.app.e_label.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Menu"></activity>
-        <activity android:name=".FragmentActivity">
+        <activity android:name="com.app.e_label.Menu"></activity>
+        <activity android:name="com.app.e_label.FragmentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

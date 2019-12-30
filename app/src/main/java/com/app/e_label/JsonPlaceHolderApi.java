@@ -1,16 +1,10 @@
-package com.app.qrcodescanner;
+package com.app.e_label;
 
-import com.app.qrcodescanner.Model.LabelData;
-import com.app.qrcodescanner.Model.Post;
-import com.app.qrcodescanner.Model.Post1;
-
-import java.util.List;
+import com.app.e_label.Model.Post;
 
 import retrofit2.Call;
-import retrofit2.Callback;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
-import retrofit2.http.Url;
 
 public interface JsonPlaceHolderApi {
 

@@ -1,4 +1,4 @@
-package com.app.qrcodescanner.Model;
+package com.app.e_label.Model;
 
 import com.google.gson.annotations.SerializedName;
 

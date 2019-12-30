@@ -1,4 +1,4 @@
-package com.app.qrcodescanner;
+package com.app.e_label;
 
 import android.Manifest;
 import android.content.DialogInterface;
@@ -7,13 +7,11 @@ import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
+import com.app.qrcodescanner.R;
 import com.budiyev.android.codescanner.CodeScanner;
 import com.budiyev.android.codescanner.CodeScannerView;
 import com.budiyev.android.codescanner.DecodeCallback;

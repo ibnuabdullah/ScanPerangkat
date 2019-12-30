@@ -1,18 +1,12 @@
-package com.app.qrcodescanner;
+package com.app.e_label;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.app.qrcodescanner.Model.Post;
-import com.app.qrcodescanner.Model.Post1;
-import com.app.qrcodescanner.Model.Post;
-import com.google.gson.reflect.TypeToken;
-
-import java.lang.reflect.Type;
-import java.util.Collection;
-import java.util.List;
+import com.app.e_label.Model.Post;
+import com.app.qrcodescanner.R;
 
 import retrofit2.Call;
 import retrofit2.Callback;

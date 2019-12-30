@@ -1,4 +1,4 @@
-package com.app.qrcodescanner;
+package com.app.e_label;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.app.qrcodescanner", appContext.getPackageName());
+        assertEquals("com.app.e_label", appContext.getPackageName());
     }
 }

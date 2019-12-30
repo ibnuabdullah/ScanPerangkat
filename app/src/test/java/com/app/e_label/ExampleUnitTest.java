@@ -1,4 +1,4 @@
-package com.app.qrcodescanner;
+package com.app.e_label;
 
 import org.junit.Test;
 
