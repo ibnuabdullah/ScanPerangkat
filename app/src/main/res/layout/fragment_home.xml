@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.app.e_label.MainActivity">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        android:text=""
-        android:textSize="20sp"
-        android:textColor="@color/colorPrimaryDark"
-        />
 
     <ImageView
         android:layout_width="347dp"
@@ -23,4 +16,137 @@
         android:layout_y="36dp"
         android:src="@drawable/title" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="199dp"
+        android:layout_x="24dp"
+        android:layout_y="220dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Cara Penggunaan:" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="58dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_x="16dp"
+        android:layout_y="248dp"
+        android:src="@drawable/scan" />
+
+    <TextView
+        android:id="@+id/infoscan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="237dp"
+        android:layout_x="75dp"
+        android:layout_y="266dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Scan QR Code Label Menggunakan Aplikasi Ini" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="146dp"
+        android:layout_x="2dp"
+        android:layout_y="165dp"
+        android:src="@drawable/elabel" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="68dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="380dp"
+        android:layout_x="11dp"
+        android:layout_y="318dp"
+        android:src="@drawable/connection" />
+
+    <TextView
+        android:id="@+id/infoconnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="0dp"
+        android:layout_x="75dp"
+        android:layout_y="336dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Pastikan Ponsel Anda Terkoneksi Dengan Internet" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="68dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="308dp"
+        android:layout_x="10dp"
+        android:layout_y="389dp"
+        android:src="@drawable/loading" />
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="0dp"
+        android:layout_x="75dp"
+        android:layout_y="401dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Tunggu Beberapa Saat Selagi Informasi QR Code Dikirimkan Ke Server" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="68dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="240dp"
+        android:layout_x="10dp"
+        android:layout_y="460dp"
+        android:src="@drawable/information" />
+
+    <TextView
+        android:id="@+id/loading2"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="442dp"
+        android:layout_marginEnd="0dp"
+        android:layout_x="77dp"
+        android:layout_y="469dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Informasi Mengenai Perangkat Akan Ditampilkan Pada Aplikasi" />
+
+</AbsoluteLayout>
